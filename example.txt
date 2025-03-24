@@ -1,0 +1,20 @@
+Left recursion :-
+
+S -> Aa | b
+A -> Ad | Sd | ε
+
+E -> E+T | T
+T -> T*F | F
+F -> id | ε
+
+
+Left factoring :-
+
+S -> iEtS | iEtSeS | a
+A -> b
+
+A -> xByA | xByAzA | a
+
+S -> aAB | aCD
+
+A -> ad | a | ab | abc | x
